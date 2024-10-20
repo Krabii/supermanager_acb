@@ -35,3 +35,11 @@ class BasketPlayer:
     price: float
     shortName: str
     up15: float
+
+
+# read current team and market
+
+model = cp_model.CpModel()
+
+
+solver = cp_model.CpSolver()
